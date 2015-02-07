@@ -135,9 +135,9 @@
         <junit.version>4.11</junit.version>
         <javaee-api.version>7.0</javaee-api.version>
         <mysql.version>5.1.18</mysql.version>
-        <slf4j-api.version>1.6.4</slf4j-api.version>
+        <slf4j-api.version>1.7.10</slf4j-api.version>
         <logback-classic.version>0.9.28</logback-classic.version>
-        <jedis.version>2.5.1</jedis.version>
+        <jedis.version>2.6.2</jedis.version>
         <commons-lang.version>2.6</commons-lang.version>
         <jackson.version>1.9.13</jackson.version>
     </properties>
@@ -165,7 +165,7 @@
         <!-- SLF4J日志框架API -->
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
+            <artifactId>slf4j-migrator</artifactId>
             <version>${slf4j-api.version}</version>
         </dependency>
         <!-- LOGBACK日志实现提供者 -->
